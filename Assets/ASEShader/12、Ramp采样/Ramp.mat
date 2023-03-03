@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EdgeDissolve
-  m_Shader: {fileID: 4800000, guid: 35ab2b7f9ecdfd542b0a00626a95e21f, type: 3}
+  m_Name: Ramp
+  m_Shader: {fileID: 4800000, guid: e1528d5c103a90c4b8b8c9eb4c27b0ff, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,21 +19,19 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8a44a838ccca3ed4fb9897f1efbdecc5, type: 3}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 378f313cfb1a2ea4b88e9eb3112921af, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Tex:
-        m_Texture: {fileID: 2800000, guid: 2fbeaa0af6d4e664ab9a1c9885d498ca, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord:
-        m_Texture: {fileID: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 78d10700797aba443b9c953222ec3269, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Dissolve: 1.05
-    - _EdgeWidth: 0.02
+    - _Float0: 1.97
+    - _Float1: 0.3
+    - _Float2: -0.74
     m_Colors:
-    - _Color0: {r: 0, g: 299.86362, b: 194.67584, a: 0}
+    - _Color0: {r: 157.5865, g: 157.5865, b: 157.5865, a: 0}
+    - _UV_Speed: {r: 8, g: 4.5, b: 0, a: 0}
   m_BuildTextureStacks: []
